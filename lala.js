@@ -1,4 +1,4 @@
-function fibonacci(num) {
+/*function fibonacci(num) {
   let result = 0
   let fibArray = []
   if(num <= 1) {
@@ -10,6 +10,7 @@ function fibonacci(num) {
   }
   return result
 }
+*/
 
 function fibonacciWithMemo(num, memo) {
   memo = memo || {};
