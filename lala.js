@@ -4,7 +4,7 @@ function fibonacci(num) {
     if(num <= 1) {
       result = 1
     } else {
-      result = fibonacci(num-1) + fibonacci(num-2)
+      result = [].push(fibonacci(num-1) + fibonacci(num-2))
     }
   }
   return result
