@@ -10,5 +10,3 @@ console.log(fibonacci(4))
 console.log(fibonacci(5))
 console.log(fibonacci(6))
 console.log(fibonacci(7))
-
-
