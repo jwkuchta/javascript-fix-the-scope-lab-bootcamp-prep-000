@@ -1,9 +1,13 @@
 function fibonacci(num) {
   let result = 0
+  let fibArray = []
   if(num <= 1) {
     result = 1
   } else {
-    result = fibonacci(num-1) + fibonacci(num-2)
+    while(num > 1) {
+      result = fibArray.push(fibonacci(num-1) + fibonacci(num-2))
+    }
+    num ++
   }
   return result
 }
