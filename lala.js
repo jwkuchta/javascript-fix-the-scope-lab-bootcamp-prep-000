@@ -13,3 +13,6 @@ arr[0];  // "under"
 arr['0']; // "under"
 arr[02]; // 02 the number *is* 2, so you get "hood"
 console.log(arr['2'])// '02' the string is *not* 2, so you get undefined
+arr["string"] = "stringentry"
+
+console.log(arr)
