@@ -3,4 +3,4 @@ function fibonacci(num) {
   return fibonacci(num-1) + fibonacci(num-2);
 }
 
-console.log(fibonacci(5))
+console.log(fibonacci(1, 2, 3, 4, 5, 6))
