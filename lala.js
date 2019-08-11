@@ -4,10 +4,9 @@ function fibonacci(num) {
   if(num <= 1) {
     result = 1
   } else {
-    while(num > 1) {
+    while(num > 1; num++) {
       result = fibArray.push(fibonacci(num-1) + fibonacci(num-2))
     }
-    num ++
   }
   return result
 }
