@@ -1,11 +1,11 @@
 function fibonacci(num) {
-  for(let i = 0; i < num) {
+  var result = 0
+  for(let i = 0; i < num; i ++) {
     if(i <= 1) {
-      return 1
+      result = 1
     } else {
-      return fibonacci(num-1) + fibonacci(num-2)
+      result = fibonacci(num-1) + fibonacci(num-2)
     }
-    i ++
   }
 }
 
