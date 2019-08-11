@@ -1,7 +1,6 @@
 function fibonacci(num) {
   if(num <= 1) return 1;
-  for n in range(1,num)
-  return fibonacci(num-1) + fibonacci(num-2);
+  for(n in range(1,num)) return fibonacci(num-1) + fibonacci(num-2);
 }
 
 
