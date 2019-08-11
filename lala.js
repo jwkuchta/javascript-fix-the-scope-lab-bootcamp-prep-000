@@ -5,7 +5,7 @@ function fibonacci(num) {
   } else {
     result = fibonacci(num-1) + fibonacci(num-2)
   }
-  result
+  return result
 }
 
 
