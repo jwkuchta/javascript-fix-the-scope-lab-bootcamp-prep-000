@@ -7,6 +7,7 @@ function fibonacci(num) {
       result = fibonacci(num-1) + fibonacci(num-2)
     }
   }
+  return result
 }
 
 
