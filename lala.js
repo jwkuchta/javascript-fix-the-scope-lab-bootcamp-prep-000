@@ -13,8 +13,3 @@ function fibonacci(num) {
 //console.log(fibonacci(5))
 //console.log(fibonacci(6))
 console.log(fibonacci(7))
-
-function fibonacciWMemo(num) {
-  if(num <= 1) return 1;
-  re
-}
