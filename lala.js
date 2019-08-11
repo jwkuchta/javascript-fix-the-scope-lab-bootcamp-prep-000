@@ -11,10 +11,21 @@ function fibonacci(num) {
   return result
 }
 
+function fibonacciWithMemo(num, memo) {
+  memo = memo || {};
+
+  if (memo[num]) return memo[num];
+  if (num <= 1) return 1;
+
+  return memo[num] = fibonacciWithMemo(num - 1, memo) + fibonacciWithMemo(num - 2, memo);
+}
+
+
+
 
 //console.log(fibonacci(1))
 //console.log(fibonacci(2))
 //console.log(fibonacci(3))
 //console.log(fibonacci(4))
 //console.log(fibonacci(5))
-console.log(fibonacci(6))
+console.log(fibonacciWithMemo(6))
